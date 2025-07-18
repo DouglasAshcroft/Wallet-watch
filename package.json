@@ -1,0 +1,25 @@
+{
+  "name": "wallet-watch",
+  "version": "1.0.0",
+  "description": "Live CryptoCurreny tracking",
+  "homepage": "https://github.com/DouglasAshcroft/Wallet-watch#readme",
+  "bugs": {
+    "url": "https://github.com/DouglasAshcroft/Wallet-watch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasAshcroft/Wallet-watch.git"
+  },
+  "license": "ISC",
+  "author": "Douglas Jackson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.38.17",
+    "jest": "^30.0.4",
+    "mui": "^0.0.1"
+  }
+}
