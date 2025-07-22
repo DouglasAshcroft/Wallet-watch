@@ -1,0 +1,110 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #1e1b4b
+Header Text - #553100
+Main background - #030712*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000E20; /* Main background */
+}
+
+header {
+  display: flex;
+  background-color: #000E20; /* Header background */
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 2px solid #1e1b4b;
+}
+
+h1 {
+  color: #f9fafb;  /*Header text */;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-button {
+  text-decoration: none;
+  background-color: #1e1b4b; /* Button */
+  color: white;
+  padding: 1.5rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block
+}
+
+.search-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: right;
+  font-size: x-large;
+  gap: 1rem;
+  width: 20rem;
+  height: 6rem;
+  margin: 1rem;
+}
+
+.Account-Login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 3rem;
+  gap: 1rem;
+}
+
+.input {
+  /* display: inline-block;
+  flex-direction: column; */
+  /* align-items: left;
+  justify-content: left; */
+  width: 20rem;
+  height: 3rem;
+  margin: 1rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  gap: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.submit{
+  text-decoration: none;
+  background-color: #1e1b4b; /* Button */
+  color: white;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block
+}
+
+/* .about {
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about button {
+  text-decoration: none;
+  background-color: #1e1b4b; /* Button 
+  color: white;
+  padding: 1.5rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block
+}
+ */ 

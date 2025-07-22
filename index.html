@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wallet Watch</title>
-    <link rel="stylesheet" href="style.css" /> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/landingPage.css" />
+  <title>Wallet Watch Login</title>
 </head>
 <body>
-    
+<header>
+    <h1><img src= "images/walletWatchOutline.svg" alt = "Coin Wallet" width="200" height="200"></h1>
+    <nav>
+      <div class="nav-menu">
+        <button class="nav-button" onclick="navHomePage()">HOME</button>
+        <button class="nav-button" onclick="connectWallet()">Connect Wallet</button>
+        <button class="nav-button" onclick="navNFTs()">Explore NFTs</button>
+        <button class="nav-button" onclick="navLogin()">LOGIN</button>
+      </div>
+    </nav>
+  </header>
+    <!-- <div class="search-container">
+      <input class="search-container" type="text" id="search-bar" placeholder="Add to your tracker" />
+    </div> -->
+  <main>
+    <div class="Account-Login">
+    <h1>Account Login</h1>
 
-    <script src="js/app.js"></script>
+    <form class="login" action="/submit" method="POST">
+        <section>
+        <label for="email">Email:</label><br />
+        <input class= "input"type="email" id="email" name="email" required />
+        </section>
+
+        <section>
+        <label for="password">Password:</label><br />
+        <input 
+          class= "input"
+          type="password" 
+          id="password" 
+          name="password" 
+          required        
+          minlenght=8
+          maxlenght=20 
+        />
+      <section>
+        <label>
+          <input class= "input"type="checkbox" name="remember" onclick="rememberUser()"/>Remember Me
+        </label>
+        </section>
+      </section>
+      <button class= "submit" type="submit" onclick="createUser()">Create Account</button>
+      <button class= "submit" type="submit" onclick="validateUserCredentials()">Sign In</button>
+    </form>
+    </div>
+  </main>
+
 </body>
 </html>
+<!-- 
+      <section>
+        <label for="github">Coinbase:</label><br />
+        <input type="text" id="github" name="github" required />
+      </section> -->
+
+      <!-- <section>
+        <p>Account Type:</p>
+        <label>
+          <input type="radio" name="account" value="enterprise" required />
+          Enterprise
+        </label><br />
+        <label>
+          <input type="radio" name="account" value="pro" />
+          Pro
+        </label><br />
+        <label>
+          <input type="radio" name="account" value="free" />
+          Free
+        </label>
+      </section> -->

@@ -1,0 +1,279 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #1e1b4b
+Header Text - #553100
+Main background - #030712*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #000E20; /* Main background */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  background-color: #000E20; /* Header background */
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 2px solid #1e1b4b;
+}
+
+h1 {
+  color: #f9fafb;  /*Header text */;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.nav-menu {
+  display: flex;;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-button {
+  text-decoration: none;
+  background-color: #1e1b4b; /* Button */
+  color: white;
+  padding: 1.5rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block
+}
+
+.search-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: right;
+  font-size: x-large;
+  gap: 1rem;
+  width: 20rem;
+  height: 6rem;
+  margin: 1rem;
+}
+
+.iframe-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  min-height: 25rem;
+  min-width: 55rem;
+}
+
+/* .features {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+} */
+
+.carousel-container {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prev-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.next-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.coin-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.coin-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 4px solid #ddd;
+  padding: 1rem;
+  font-size: x-large;
+  margin: .5rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  min-width: 300px;
+}
+
+/* .coin-card img { insert syb image 
+  width: 100%;
+} */
+
+button {
+  background-color: #1e1b4b;
+  color: white;
+  font-size: large;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b0b0b0
+}
+
+/* .coinDisplay {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+} */
+
+/* .card button {
+  text-decoration: none;
+  background-color: #1e1b4b; 
+  padding: 1.5rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block
+} */
+.about-container{
+  display: inline-block;
+  align-self: center;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  max-width: 40rem;
+  margin-top: 10rem;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-self: start;
+  justify-items: center;
+  padding:50px 0;
+  color:#f0f9ff;
+  max-height: 10rem;
+  background-color:#000E20;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+.footer-headers{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+  padding: 4rem;
+  text-wrap: wrap;
+}
+
+.footer-opportunities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-wrap: wrap;
+  width: 18rem;
+}
+
+.footer-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-wrap: wrap;
+  width: 18rem;
+}
+
+.footer-dark .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 24rem;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+/* .about h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.about button {
+  text-decoration: none;
+  background-color: #1e1b4b; /* Button 
+  color: white;
+  padding: 1.5rem 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: inline-block */
+
+  /* 
+.footer-company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-wrap: wrap;
+  width: 18rem; */
+/* 
+}
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  /* opacity:0.6; */
+/* }
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+ */ 

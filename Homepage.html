@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Watch</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="images" href="images/" />  
+</head>
+<body>
+  <header>
+    <h1><img src= "images/walletWatchOutline.svg" alt = "Coin Wallet" width="200" height="200"></h1>
+    <nav>
+      <div class="nav-menu">
+        <button class="nav-button" onclick="navHomePage()">HOME</button>
+        <button class="nav-button" onclick="connectWallet()">Connect Wallet</button>
+        <button class="nav-button" onclick="navNFTs()">Explore NFTs</button>
+        <button class="nav-button" onclick="navLogin()">LOGIN</button>
+      </div>
+    </nav>
+  </header>
+    <div class="search-container">
+      <input class="search-container" type="text" id="search-bar" placeholder="Add coins to your tracker" />
+    </div>
+  <main>
+    <div class= "iframe-container"></div><!-- <iframe class= 'inner-iframe'>   -->
+    <div class="carousel-cantainer">
+      <button class="prev-btn" onclick="showPrevCoin()">Prev</button>
+        <div class="coin-list"></div><!-- Function shows cards -->
+      <button class="next-btn" onclick="showNextCoin()">Next</button>
+    </div>
+      
+    <div class= "about-container">
+      <section class="about">
+          <h2>Wallet Watch</h2>
+            <h3>Crypto Performance Safe and Simple</h3>
+              <p>Wallet Watch allows you to safely monitor the performance of your 
+                digital assets in real-time, without connecting to your accounts. Keep 
+                your crypto stored securely in cold storage while easily tracking market 
+                changes and performance</p>
+      </section>
+    </div>
+  </main>
+    <div class="footer-body">
+        <footer>
+            <div class="container">
+                <div class="footer-headers">
+                    <div class="footer-opportunities">
+                        <h2>Career Opportunities</h2>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class=".footer-about">
+                        <h2>About</h2>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Documentation</a></li>
+                        </ul>
+                    </div>
+              <div class="footer-social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Wallet Watch© 2025</p>
+            </div>
+          </footer>
+<script src="scripts/app.js"></script>
+</body>
+</html>
